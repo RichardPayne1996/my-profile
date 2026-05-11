@@ -1,0 +1,159 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #1f1f1f, #2d3436);
+    color: #f5f6fa;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #00cec9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #81ecec;
+    transform: scale(1.05);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #00cec9;
+}
+
+header h2 {
+    color: #dfe6e9;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #b2bec3;
+}
+
+/* Profile Image */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #00cec9;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Content Cards */
+div, section {
+    background-color: #2f3640;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+h4, h5 {
+    color: #00cec9;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Form */
+form {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.button,
+input[type="submit"] {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00cec9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover,
+input[type="submit"]:hover {
+    background-color: #0984e3;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #353b48;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #00cec9;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #555;
+}
+
+tr:hover {
+    background-color: #414b57;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #b2bec3;
+    padding: 20px;
+}
